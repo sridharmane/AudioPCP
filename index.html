@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Perceptions of Social Media Data</title>
+		<meta name="description" content="">
+
+		<link rel="stylesheet" href="bootstrap-3.1.0.min.css">
+		<link rel="stylesheet" href="bootstrap-progressbar-3.1.1.css">
+		<link rel="stylesheet" href="style.css">
+
+		<script src="jquery.js"></script>
+		<script src="bootstrap-3.1.0.min.js"></script>
+		<script src="bootstrap-progressbar.js"></script>
+
+		<script src="script.js"></script>
+
+	</head>
+	<body>
+		<!-- 		<div id="mode">
+		<input type="radio" id="mode1" name="mode" value="0"/>
+		<label for="mode1">Voice-Earcon</label>
+		<input type="radio" id="mode2" name="mode" value="1"/>
+		<label for="mode2">Earcon-Voice</label>
+		<input type="radio" id="mode3" name="mode" value="2"/>
+		<label for="mode3">Simultaneous</label>
+		</div> -->
+		<div id="progressWrapper">
+			<h1>Loading Sound Files. Pleas wait...</h1>
+			<div class="progress progress-striped active">
+				<div id="soundProgressBar" class="progress-bar" role="progressbar" aria-valuetransitiongoal="5"></div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="trialsCompleted"></div>
+			<div id="wrapper">
+				<button class="answers round-button" type="button">
+					<label class="reactionTime"></label>
+				</button>
+				<button class="answers round-button" type="button">
+					<label class="reactionTime"></label>
+				</button>
+				<button class="answers round-button" type="button">
+					<label class="reactionTime"></label>
+				</button>
+				<button class="answers round-button" type="button">
+					<label class="reactionTime"></label>
+				</button>
+				<button class="answers round-button" type="button">
+					<label class="reactionTime"></label>
+				</button>
+				<button type="button" class = "round-button" id="nextTrial">
+					<div id="triangle"></div><label id="timer"></label>
+				</button>
+			</div>
+		</div>
+		<div>
+			<audio src="" hidden="hidden" id="sound" type="audio/wav" preload="auto"></audio>
+		</div>
+		<h1 id="thanks" >Thank You for your time. Saving Data...</h1>
+	</body>
+</html>

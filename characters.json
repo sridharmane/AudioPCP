@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Don Corleone",
+        "traits": "abaaa",
+        "predictions": [
+            "you are a nerd",
+            "You need to take abath",
+            "You are gay",
+            "You are a nerd",
+            "You like oranges"
+        ]
+    },
+    {
+        "name": "Kriti",
+        "traits": "ababa",
+        "predictions": [
+            "you are a nerd",
+            "You need to take abath",
+            "You are gay",
+            "You are a nerd",
+            "You like oranges"
+        ]
+    },
+    {
+        "name": "Houdini",
+        "traits":"babab",
+        "predictions": [
+            "you are a nerd",
+            "You need to take abath",
+            "You are gay",
+            "You are a nerd",
+            "You like oranges"
+        ]
+    }
+
+]
