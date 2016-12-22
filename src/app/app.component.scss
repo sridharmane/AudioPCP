@@ -1,0 +1,143 @@
+@import '~@angular/material/core/theming/all-theme';
+@include md-core();
+$primary: md-palette($md-blue-grey, 800);
+$accent: md-palette($md-grey, 600, A100, A400);
+$warn: md-palette($md-red, 600);
+$green: md-palette($md-green, 600);
+$theme: md-light-theme($primary, $accent, $warn);
+@include angular-material-theme($theme);
+.button-round {
+  /*display: block;*/
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 5px solid rgba(md-color($primary), 0.8);
+  border-radius: 50%;
+  background: rgba(md-color($accent), 0.6);
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0 3px gray;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-round:hover {
+  background: rgba(md-color($accent), 0.8);
+}
+
+.button-option {
+  img {
+    width: 80%;
+  }
+}
+
+.button-center {
+  md-icon {
+    &.md-72 {
+      width: 72px;
+      height: 72px;
+      font-size: 72px;
+      display: block;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px;
+}
+
+.trials-completed {
+  width: 20em;
+  margin: 1em auto;
+  font-size: larger;
+  padding: 5px;
+  height: auto;
+  color: md-color($primary);
+  cursor: default;
+}
+
+#mode {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.untouched {
+  border: 5px solid rgba(md-color($primary), 0.8);
+}
+
+.wrong {
+  border: 5px solid md-color($warn);
+  // border-radius: 50%;1
+}
+
+.correct {
+  border: 5px solid md-color($green);
+  // border-radius: 50%;
+}
+
+#mode {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+}
+
+.container {
+  position: relative;
+  width: 24em;
+  height: 24em;
+  padding: 2.8em;
+  /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+  border: dashed 1px;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+  margin-top: 6em;
+  border-color: rgba(md-color($accent), 0.2);
+  button.button-round {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6em;
+    height: 6em;
+    margin: -3em;
+    /* 2em = 4em/2 */
+    /* half the width */
+  }
+}
+
+.container button:not(.center):after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  // box-shadow: 0 0 .5em .5em white;
+  margin: -2px;
+  // background: deeppink;
+  opacity: .3;
+  content: '';
+}
+
+.button-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  // box-shadow: 0 0 .5em .5em white;
+  margin: -2px;
+  // background: deeppink;
+  content: '';
+}

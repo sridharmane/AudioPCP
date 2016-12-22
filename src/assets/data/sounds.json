@@ -1,0 +1,36 @@
+[{
+  "count": "0",
+  "sounds": [
+    "sounds/gas/LowOnGas_voxMUS.wav",
+    "sounds/gas/LowOnGas_musVOX.wav",
+    "sounds/gas/LowOnGas_tgthr.wav"
+  ]
+}, {
+  "count": "0",
+  "sounds": [
+    "sounds/engine/CheckEngine_voxMUS.wav",
+    "sounds/engine/CheckEngine_MUSvox.wav",
+    "sounds/engine/CheckEngine_tgthr.wav"
+  ]
+}, {
+  "count": "0",
+  "sounds": [
+    "sounds/seatbelt/BuckeSeatbelt_VOXmus.wav",
+    "sounds/seatbelt/BuckeSeatbelt_MUSvox.wav",
+    "sounds/seatbelt/BuckeSeatbelt_tgthr.wav"
+  ]
+}, {
+  "count": "0",
+  "sounds": [
+    "sounds/door/CarDoorOpen_voxMUS.wav",
+    "sounds/door/CarDoorOpen_musVox.wav",
+    "sounds/door/CarDoorOpen_tgthr.wav"
+  ]
+}, {
+  "count": "0",
+  "sounds": [
+    "sounds/airbag/AirbagNotWorking_VOXmus.wav",
+    "sounds/airbag/AirbagNotWorking_MUSvox.wav",
+    "sounds/airbag/AirbagNotWorking_tgthr2.wav"
+  ]
+}]

@@ -1,0 +1,53 @@
+[{
+    "name": "fuel",
+    "id": 0,
+    "imgSrc": "assets/images/fuel.png",
+    "useCount": 0,
+    "sounds": [
+      "assets/sounds/gas/LowOnGas_voxMUS.wav",
+      "assets/sounds/gas/LowOnGas_musVOX.wav",
+      "assets/sounds/gas/LowOnGas_tgthr.wav"
+    ]
+  }, {
+    "name": "engine",
+    "id": 1,
+    "imgSrc": "assets/images/engine.png",
+    "useCount": 0,
+    "sounds": [
+      "assets/sounds/engine/CheckEngine_voxMUS.wav",
+      "assets/sounds/engine/CheckEngine_MUSvox.wav",
+      "assets/sounds/engine/CheckEngine_tgthr.wav"
+    ]
+  }, {
+    "name": "seatbelt",
+    "id": 2,
+    "imgSrc": "assets/images/seatbelt.png",
+    "useCount": 0,
+    "sounds": [
+      "assets/sounds/seatbelt/BuckeSeatbelt_VOXmus.wav",
+      "assets/sounds/seatbelt/BuckeSeatbelt_MUSvox.wav",
+      "assets/sounds/seatbelt/BuckeSeatbelt_tgthr.wav"
+    ]
+  }, {
+    "name": "door",
+    "id": 3,
+    "imgSrc": "assets/images/dooropen.png",
+    "useCount": 0,
+    "sounds": [
+      "assets/sounds/door/CarDoorOpen_voxMUS.wav",
+      "assets/sounds/door/CarDoorOpen_musVox.wav",
+      "assets/sounds/door/CarDoorOpen_tgthr.wav"
+    ]
+  }, {
+    "name": "airbag",
+    "id": 4,
+    "imgSrc": "assets/images/airbag.png",
+    "useCount": 0,
+    "sounds": [
+      "assets/sounds/airbag/AirbagNotWorking_VOXmus.wav",
+      "assets/sounds/airbag/AirbagNotWorking_MUSvox.wav",
+      "assets/sounds/airbag/AirbagNotWorking_tgthr2.wav"
+    ]
+  }
+
+]
