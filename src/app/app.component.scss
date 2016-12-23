@@ -35,7 +35,6 @@ $theme: md-light-theme($primary, $accent, $warn);
   }
 }
 
-.button-center {
   md-icon {
     &.md-72 {
       width: 72px;
@@ -46,7 +45,6 @@ $theme: md-light-theme($primary, $accent, $warn);
       transform: translateX(-50%);
     }
   }
-}
 
 .center {
   margin: 0 auto;
@@ -56,7 +54,7 @@ $theme: md-light-theme($primary, $accent, $warn);
 
 .trials-completed {
   width: 20em;
-  margin: 1em auto;
+  margin: 0 auto;
   font-size: larger;
   padding: 5px;
   height: auto;
@@ -75,12 +73,10 @@ $theme: md-light-theme($primary, $accent, $warn);
 
 .wrong {
   border: 5px solid md-color($warn);
-  // border-radius: 50%;1
 }
 
 .correct {
   border: 5px solid md-color($green);
-  // border-radius: 50%;
 }
 
 #mode {
@@ -99,7 +95,7 @@ $theme: md-light-theme($primary, $accent, $warn);
   border: dashed 1px;
   border-radius: 50%;
   margin: 1.75em auto 0;
-  margin-top: 6em;
+  margin-top: 4em;
   border-color: rgba(md-color($accent), 0.2);
   button.button-round {
     display: block;

@@ -332,7 +332,7 @@ export class Timer {
     this.counter = this.startVal;
   }
   stop() {
-    // this.counting = false;
+    this.counting = false;
     clearInterval(this.timer);
   }
 

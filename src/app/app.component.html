@@ -7,12 +7,12 @@
   <h2 class="center trials-completed">Trials Completed: {{trialNumber}} / {{totalTrials}}</h2>
   <div class="container">
     <button #optionRef class="button-round button-option" *ngFor="let option of options; let i = index;" type="button" (click)="onOptionClick(i)"
-      [ngClass]="option.status" [disabled]="">
+      [ngClass]="option.status" [disabled]="countDownTimer.counting">
       <label *ngIf="option.reactionTime">{{option.reactionTime}} ms</label>
         <img *ngIf="!option.reactionTime" [src]="option?.imageSrc" />
 	</button>
-    <button #startStop type="button" class="button-round button-center" (click)="nextTrial()" *ngIf="trialNumber <= totalTrials">
-          <md-icon class="md-72" *ngIf="!countDownTimer.counting">play_arrow</md-icon>
+    <button #startStop type="button" class="button-round button-center" (click)="nextTrial()" *ngIf="trialNumber <= totalTrials && !countUpTimer.counting">
+          <md-icon class="md-72" color="primary" *ngIf="!countDownTimer.counting">play_arrow</md-icon>
           <label *ngIf="countDownTimer.counting">{{countDownTimer.counter}}</label>
 	</button>
   </div>

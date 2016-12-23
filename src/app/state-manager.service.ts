@@ -13,7 +13,8 @@ export class StateManagerService {
   trials: FirebaseListObservable<ITrial[]>;
 
   constructor(private af: AngularFire, private http: Http) {
-    this.trials = this.af.database.list('/observations');
+
+    this.trials = this.af.database.list('/trials');
   }
 
   getMode(): number {
